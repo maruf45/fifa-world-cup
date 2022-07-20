@@ -342,7 +342,9 @@ footer .footer-content ul {
 
 /* responsive for mobile  */
 @media all and (max-width: 425px) {
-    
+    .match-container .btn {
+        display: none;
+    }
     html,
     body {
         width: 100%;
